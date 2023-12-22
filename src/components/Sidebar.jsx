@@ -1,6 +1,10 @@
 import React from "react";
 import { Avatar } from "@mui/material";
 
+/**
+ * Sidebar component that renders user profile info,
+ * stats, and recent topics.
+ */
 function Sidebar() {
   const recentItem = (topic) => {
     return (

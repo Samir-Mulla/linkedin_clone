@@ -6,6 +6,11 @@ import MonthIcon from "@mui/icons-material/CalendarMonth";
 import ArticleIcon from "@mui/icons-material/Article";
 import Post from "./Post";
 
+/**
+ * Feed component that renders the main feed UI.
+ * Includes user avatar, post input, post options,
+ * and Post components.
+ */
 function Feed() {
   return (
     <div className="  mt-3 md:mt-0 md:w-2/5">
@@ -30,7 +35,11 @@ function Feed() {
         <div className="flex justify-around ">
           <InputOption Icon={ImageIcon} title="Media" color="#70B5F9" />
           <InputOption Icon={MonthIcon} title="Event" color="#c37d16" />
-          <InputOption Icon={ArticleIcon} title="Write article"color="#e06847"/>
+          <InputOption
+            Icon={ArticleIcon}
+            title="Write article"
+            color="#e06847"
+          />
         </div>
       </div>
 

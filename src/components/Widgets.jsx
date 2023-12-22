@@ -2,6 +2,11 @@ import React from "react";
 import InfoIcon from "@mui/icons-material/Info";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
+/**
+ * Widgets component.
+ * Renders widget content on sidebar.
+ */
+
 function Widgets() {
   const newsArticle = (heading, subtitle) => {
     return (

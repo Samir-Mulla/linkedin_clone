@@ -9,6 +9,11 @@ import {
 import InputOption from "./InputOption";
 
 // { name, description, message }
+
+/**
+ * Post component renders a post item with header, content,
+ * and input options for interacting with the post.
+ */
 const Post = () => {
   return (
     <div className="bg-white p-4 mb-2 rounded border border-gray-300">

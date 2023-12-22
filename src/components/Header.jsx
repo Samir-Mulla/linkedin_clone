@@ -9,6 +9,10 @@ import {
   Notifications,
 } from "@mui/icons-material";
 
+/**
+ * Header component that renders the header section of the page.
+ * Includes logo, search bar, and nav links.
+ */
 function Header() {
   return (
     <div

@@ -2,6 +2,14 @@ import React from "react";
 import Registerlogo from "../assets/registerlinkedinlogo.svg";
 import Googleiconbtn from "../assets/googleiconbtn.svg";
 
+/**
+ * Register component renders the registration page.
+ *
+ * It displays the LinkedIn logo, form fields for email, password and
+ * agreement to terms. Provides option to register with Google.
+ *
+ * Overall it provides the complete registration flow UI.
+ */
 export default function Register() {
   return (
     <div className="flex flex-col items-center justify-center w-full text-center">
@@ -62,10 +70,9 @@ export default function Register() {
           </div>
 
           <button className="mt-4 flex items-center justify-center w-full sm:w-3/4 md:w-full lg:w-full xl:w-full  p-2 font-medium cursor-pointer border border-black mx-auto rounded-lg">
- <img src={Googleiconbtn} alt="google logo" className="mr-2" />
- <span> Continue with Google</span>
-</button>
-
+            <img src={Googleiconbtn} alt="google logo" className="mr-2" />
+            <span> Continue with Google</span>
+          </button>
 
           <p className="mt-4">
             Already on Linkedin?{" "}
