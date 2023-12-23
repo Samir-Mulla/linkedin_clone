@@ -37,7 +37,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="flex items-center flex-wrap justify-center p-1 ml-1  md:mt-0">
+      <div className="flex items-center flex-wrap justify-center p-1 ml-6 md:mt-0">
         <HeaderOption Icon={Home} title="Home" />
         <HeaderOption Icon={SupervisorAccount} title="My Network" />
         <HeaderOption Icon={BusinessCenter} title="Jobs" />
