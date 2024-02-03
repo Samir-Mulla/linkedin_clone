@@ -5,6 +5,7 @@ import InputOption from "./InputOption";
 import MonthIcon from "@mui/icons-material/CalendarMonth";
 import ArticleIcon from "@mui/icons-material/Article";
 import Post from "./Post";
+import MyProfile from "/images/my-profile.jpg";
 
 /**
  * Feed component that renders the main feed UI.
@@ -18,7 +19,7 @@ function Feed() {
         <div className="flex justify-around mb-2 items-center">
           <Avatar
             className="w-12 h-12"
-            src="https://media.licdn.com/dms/image/D4D03AQGs2dkhjJ9aJQ/profile-displayphoto-shrink_100_100/0/1693498577253?e=1706140800&v=beta&t=3MzhtYZYzk-S5QHwEmRgWut8oTg-rw-WY0vBaTMTMCc"
+            src={MyProfile}
           />
           <div className="border border-gray-300 rounded-lg p-2 flex-grow ml-4 hover:bg-gray-100">
             <form>

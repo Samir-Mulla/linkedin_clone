@@ -1,5 +1,6 @@
 import React from "react";
 import { Avatar } from "@mui/material";
+import MyProfile from "/images/my-profile.jpg";
 
 /**
  * Sidebar component that renders user profile info,
@@ -28,7 +29,7 @@ function Sidebar() {
 
         <Avatar
           className="mb-2 -mt-5"
-          src="https://media.licdn.com/dms/image/D4D03AQGs2dkhjJ9aJQ/profile-displayphoto-shrink_100_100/0/1693498577253?e=1706140800&v=beta&t=3MzhtYZYzk-S5QHwEmRgWut8oTg-rw-WY0vBaTMTMCc"
+          src={MyProfile}
           sx={{ width: 48, height: 48 }}
         />
         <h4 className="text-sm text-black">Samir Mulla</h4>
